@@ -3,7 +3,7 @@ layout: bidder
 title: Adtarget.me
 description: Prebid Adtarget.me bidder adapter
 biddercode: adtrgtme
-gdpr_supported: false
+tcfeu_supported: false
 usp_supported: false
 coppa_supported: false
 schain_supported: false
@@ -21,6 +21,15 @@ multiformat_supported: will-bid-on-one
 sidebarType: 1
 ---
 
-### Note:
+### Note
 
-The Adtrgtme bidding adapter requires setup before beginning. Please contact us at info@adtarget.me
+The Adtrgtme bidding adapter requires setup before beginning. Please contact us at <support@adtarget.me>
+
+### Bid Params
+
+{: .table .table-bordered .table-striped }
+
+| Name  | Scope    | Description | Example       | Type     |
+|-------|----------|-------------|---------------|----------|
+| `sid` | required | Site ID     | "1234567890"  | `string` |
+| `zid` | optional | Zone ID     | `1234567890`  | `number` |

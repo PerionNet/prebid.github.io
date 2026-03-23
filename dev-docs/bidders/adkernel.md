@@ -2,26 +2,32 @@
 layout: bidder
 title: AdKernel
 description: Prebid AdKernel Bidder Adaptor
-pbjs: true
-pbs: true
 biddercode: adkernel
-media_types: banner, native, video
-gdpr_supported: true
+tcfeu_supported: true
+dsa_supported: false
+gvl_id: 14
 usp_supported: true
 coppa_supported: true
-pbs_app_supported: true
-gvl_id: 14
+gpp_sids: tcfeu, usp
 schain_supported: true
-userIds: all
-fpd_supported: true
-prebid_member: false
-ortb_blocking_supported: true
-multiformat_supported: will-bid-on-one
+dchain_supported: false
+userId: all
+media_types: banner, video, native
+safeframes_ok: true
+deals_supported: false
 floors_supported: true
+fpd_supported: true
+pbjs: true
+pbs: true
+pbs_app_supported: true
+prebid_member: false
+multiformat_supported: will-bid-on-any
+ortb_blocking_supported: true
+privacy_sandbox: no
 sidebarType: 1
 ---
 
-### Note:
+### Note
 
 The Adkernel Bidding adaptor requires setup and approval before beginning. Please reach out to <prebid@adkernel.com> for more details
 

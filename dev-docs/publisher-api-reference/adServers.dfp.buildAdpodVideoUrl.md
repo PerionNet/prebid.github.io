@@ -1,7 +1,7 @@
 ---
 layout: api_prebidjs
 title: pbjs.adServers.dfp.buildAdpodVideoUrl(options) <span style="color:red" markdown="1">[Alpha]</span>
-description: 
+description: adServers.dfp.buildAdpodVideoUrl API
 sidebarType: 1
 ---
 
@@ -30,7 +30,7 @@ pbjs.que.push(function(){
     pbjs.addAdUnits(videoAdUnit);
     pbjs.setConfig({
         cache: {
-            url: 'https://prebid.adnxs.com/pbc/v1/cache'
+            url: 'https://my-pbs.example.com/cache'
         },
         adpod: {
             brandCategoryExclusion: true
